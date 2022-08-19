@@ -1,0 +1,16 @@
+Calculadora de proposiciones lógicas 1.0
+
+Limitaciones conocidas:
+
+-	El programa no procesa correctamente proposiciones compuestas
+	en las que existen proposiciones dentro de más de 1 parentesis
+	significativo*.
+	Ejemplo:
+		(~(p∧q)∨r)→p
+
+	Para algunos casos, el resultado podría ser correcto, aunque
+	se habría llegado a través de un procedimiento incorrecto.
+
+
+	*Ejemplo de paréntesis no significativo:
+		((p∧q))
